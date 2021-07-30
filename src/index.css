@@ -1,0 +1,40 @@
+@font-face {
+  font-family: 'Silka';
+  src: url(./fonts/silka-medium-webfont.woff) format('woff');
+  font-weight: normal; 
+}
+@font-face {
+  font-family: 'Silka';
+  src: url(./fonts/silka-bold-webfont.woff) format('woff');
+  font-weight: bold; 
+}
+@font-face {
+  font-family: 'Silka';
+  src: url(./fonts/silka-regular-webfont.woff) format('woff');
+  font-weight: lighter; 
+}
+
+body {
+  margin: 0;
+  font-family: 'Silka', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.has-files {
+  border-style: solid !important;
+  border-color: #50E3C2 !important;
+}
+
+.is-empty{
+  border-style: solid !important;
+  border-color: red !important;
+  color: 'red';
+}

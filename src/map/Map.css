@@ -1,0 +1,199 @@
+.map-overlay {
+    width: 360px;
+    position: absolute;
+    z-index: 200;
+    right: 40px;
+    top: 100px;
+    font-weight: 500;
+}
+.overlay-card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 13px 46px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin-bottom: 30px;
+    transition: all ease 300ms;
+}
+.overlay-card.expanded {
+    width: 600px;
+    margin-left: -280px;
+}
+.overlay-card.hover:hover {
+    cursor: pointer;
+    /* box-shadow: 0px 13px 56px rgba(0, 0, 0, 0.3); */
+    transform: scale(1.02);
+}
+.map-row {
+    height: 40px;
+    line-height: 40px;
+    background-color: rgba(0, 0, 0, 0.05);
+    margin-bottom: 3px;
+    font-weight: 500;
+}
+.map-row:hover {
+    background-color: rgba(0, 0, 0, 0.07);
+    cursor: pointer;
+}
+.map-row.inactive {
+    opacity: 0.3;
+}
+.dot {
+    border-radius: 100%;
+    margin: 0 10px 0 0;
+    display: inline-block;
+    vertical-align: middle;
+    width: 18px;
+    height: 18px;
+    background: rgba(47,11,255,1);
+}
+.dot.genuine {
+    background: rgba(63,253,199,1);
+    margin-left: 10px;
+}
+.dot.suspicious {
+    background: rgba(253,0,53,1);
+    margin-left: 10px;
+}
+.dot.stolen {
+    background: rgba(196,0,83,1);
+    margin-left: 10px;
+}
+.dot.out-of-region {
+    background: rgba(255,167,0,1);
+    margin-left: 10px;
+}
+.dot.expired {
+    background: rgba(255,222,111,1);
+    margin-left: 10px;
+}
+.count {
+    position: absolute;
+    right: 70px;
+    opacity: 0.5;
+}
+
+.open-eye-icon{
+    position: absolute;
+    right: 35px;
+    margin-top: 7px;
+}
+
+.closed-eye-icon{
+    max-width: 24px;
+    max-height: 24px;
+    position: absolute;
+    right: 35px;
+    margin-top: 7px;
+}
+
+
+.map-switch {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 40px;
+    margin-bottom: 20px;
+}
+.map-switch-item {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 800;
+    background-color: white;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: all 300ms ease;
+}
+.map-switch-item.selected, .map-switch-item.selected:hover {
+    background-color: black;
+    color: white;
+}
+.map-switch-item:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+.button {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 800;
+    background-color: rgba(0,0,0,1);
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-align: center;
+    transition: all 300ms ease;
+    color: white;
+    border: none;
+    width: fit-content;
+    float: left;
+    
+}
+.date-header {
+    border-bottom: 1px rgb(212, 212, 212) solid;
+    height: 50px;
+    margin: -3px 0 20px 0;
+}
+
+.map-overlay  .MuiCircularProgress-root { 
+    position: absolute; 
+    right: 20px; 
+    top: 10px; 
+    width: 40px !important;
+    height: 40px !important;
+}
+
+.no-scans {
+    padding: 20px;
+    text-align: center;
+    opacity: 0.5;
+}
+
+
+/*
+MapBox css styles
+*/
+.mapboxgl-popup-content{
+    position: relative;
+    background: transparent;
+    border-radius: 3px;
+    box-shadow: 0 1px 2px rgba(0,0,0,.1);
+    padding: 10px 10px 15px;
+    pointer-events: auto;
+}
+
+.mapboxgl-popup-close-button{
+    width: 50px;
+    height: 50px;
+    color: white;
+    font-size: 42px;
+    right: -180px;
+    top: 15px;
+}
+
+/* .mapboxgl-popup-anchor-top{ /*targeting pointer styling here*/
+    /* border: '1px solid red';
+    background-color: 'black';
+}
+
+.mapboxgl-popup-anchor-bottom{
+    border: '1px solid red'
+} */
+
+.mapboxgl-popup-anchor-bottom .mapboxgl-popup-tip{
+    align-self: center;
+    border-bottom: none;
+    border-top-color: black;
+    width: 3px;
+    height: 0;
+    transform: translateY(-16px) !important;
+}
+
+.mapboxgl-popup-anchor-top .mapboxgl-popup-tip{
+    align-self: center;
+    border-top: none;
+    border-bottom-color: black;
+    width: 3px;
+    height: 0;
+    transform: translateY(10px) !important;
+
+}

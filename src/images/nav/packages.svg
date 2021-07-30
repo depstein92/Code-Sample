@@ -1,0 +1,12 @@
+<svg id="packages" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="Group_320" data-name="Group 320">
+    <path id="Path_72" data-name="Path 72" d="M20.926,16V8a2,2,0,0,0-1-1.732L13,2.27a2,2,0,0,0-2,0l-6.926,4A2,2,0,0,0,3.074,8v8a2,2,0,0,0,1,1.732l6.926,4a2,2,0,0,0,2,0l6.926-4a2,2,0,0,0,1-1.732Z" fill="none" stroke="#323232" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" fill-rule="evenodd"/>
+    <path id="Path_73" data-name="Path 73" d="M6.17,12.63l3,1.74" fill="none" stroke="#323232" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" fill-rule="evenodd"/>
+  </g>
+  <path id="Path_74" data-name="Path 74" d="M3.342,7,12,12l8.658-5" fill="none" stroke="#323232" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+  <g id="Group_321" data-name="Group 321">
+    <path id="Path_75" data-name="Path 75" d="M12,22V12" fill="none" stroke="#323232" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    <path id="Path_76" data-name="Path 76" d="M7.67,9.5,16.6,4.35" fill="none" stroke="#323232" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+  </g>
+  <path id="Path_77" data-name="Path 77" d="M0,0H24V24H0Z" fill="none"/>
+</svg>

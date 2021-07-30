@@ -1,0 +1,91 @@
+{
+  "name": "checkurmed-admin-web",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@date-io/date-fns": "^1.3.13",
+    "@material-ui/pickers": "^3.2.10",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "axios": "^0.21.1",
+    "azure-maps-control": "^2.0.31",
+    "chart.js": "^2.9.4",
+    "date-fns": "^2.16.1",
+    "jwt-decode": "^3.1.2",
+    "mapbox-gl": "^1.12.0",
+    "prop-types": "^15.7.2",
+    "ra-data-simple-rest": "^3.9.3",
+    "react": "^17.0.1",
+    "react-admin": "^3.9.6",
+    "react-azure-maps": "^0.1.4",
+    "react-chartjs-2": "^2.11.1",
+    "react-date-range": "^1.1.3",
+    "react-dom": "^17.0.1",
+    "react-dropzone": "^11.2.4",
+    "react-lottie": "^1.2.3",
+    "react-scripts": "4.0.0",
+    "web-vitals": "^0.2.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "test_details": "npm test",
+    "storybook": "start-storybook -p 6006 -s public",
+    "build-storybook": "build-storybook -s public"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ],
+    "overrides": [
+      {
+        "files": [
+          "**/*.stories.*"
+        ],
+        "rules": {
+          "import/no-anonymous-default-export": "off"
+        }
+      }
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@storybook/addon-actions": "^6.2.0",
+    "@storybook/addon-essentials": "^6.2.0",
+    "@storybook/addon-links": "^6.2.0",
+    "@storybook/node-logger": "^6.2.0",
+    "@storybook/preset-create-react-app": "^3.1.7",
+    "@storybook/react": "^6.2.0",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.6",
+    "enzyme-to-json": "^3.6.1",
+    "jest-canvas-mock": "^2.3.1"
+  },
+  "jest": {
+    "snapshotSerializers": [
+      "enzyme-to-json/serializer"
+    ],
+    "collectCoverageFrom": [
+      "src/**/*.js",
+      "!src/index.js"
+    ],
+    "coverageReporters": [
+      "text"
+    ]
+  }
+}
